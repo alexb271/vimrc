@@ -87,7 +87,7 @@ nnoremap <C-g> :YcmCompleter GoTo<CR>
 imap <silent> <C-l> <Plug>(YCMToggleSignatureHelp)
 
 " YCM Semantic Syntax Highlighting
-let g:ycm_enable_semantic_highlighting = 1
+" let g:ycm_enable_semantic_highlighting = 1
 let MY_YCM_HIGHLIGHT_GROUP = {
       \   'typeParameter': 'PreProc',
       \   'macro': 'Macro',
